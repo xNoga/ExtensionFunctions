@@ -38,7 +38,7 @@ toast("Hello world!", Toast.LENGTH_LONG)
 <h3>Extension properties</h3>
 Extension properties tilføjer det samme koncept til properties, og tilføjes f.eks. således på TextView klassen. Det kunne være hvilken som helst klasse i Kotlin. 
 ```Kotlin
-var hej = "hej"
+var hej = ""
 public var TextView.hello: String
     get() = hej
     set(v) {
